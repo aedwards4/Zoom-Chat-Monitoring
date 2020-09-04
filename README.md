@@ -1,2 +1,2 @@
 # Zoom-Chat-Monitoring
-This program is being made in response to a professor's decision to monitor Zoom chat logs for participation credit.
+This program is being made in response to a professor's decision to monitor Zoom chat logs for participation credit. It will iterate over each line, parse for the participant and the input, determine if it was meaningful input, then assign a 1 if the input could be classified as class participation. A final score of 1 indicates the student will earn participation credit for that session. A score of 0 indicates no participation points will be awarded. The program will then append this information to the master database for use in grading at the end of the semester.
